@@ -1,0 +1,16 @@
+body{
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    border : 2px dotted blue;
+    border-radius: 50px;
+}
+ul{
+    list-style-type: circle;
+    
+}
+ol{
+    margin-top: 80px;
+}

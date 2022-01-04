@@ -1,0 +1,11 @@
+div{
+    background-color: tomato;
+    border:2px dotted black;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    border-radius: 50px;
+}

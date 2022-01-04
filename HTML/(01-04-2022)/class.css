@@ -1,0 +1,46 @@
+body{
+    background-color: wheat;
+}
+.country h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+}
+.country{
+    background-color: tomato;
+    text-align: center;
+}
+.city h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.city{
+    background-color: thistle;
+    text-align: right;
+}
+.capital{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.capital h3{
+    background-color: yellowgreen;
+    text-align: start;
+}
+#myHeader{
+    background-color: whitesmoke;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.iframe{
+    font-family: monospace;
+    padding-right: 25px;
+    padding-left: 25px;
+
+
+}
+
+
