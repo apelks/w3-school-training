@@ -1,0 +1,29 @@
+body{
+    background-image: url("marvel.jpg");
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.iron{
+    color: crimson;
+    font-size: 30px;
+}
+
+.bat{
+    color: yellow;
+    font-size: 30px;
+}
+
+.spidy{
+    color: blue;
+    font-size: 30px;
+}
+
+h1{
+    color: burlywood;
+}
+
+p{
+    color: cadetblue;
+}

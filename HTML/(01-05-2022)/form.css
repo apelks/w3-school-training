@@ -1,0 +1,30 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: tomato;
+}
+
+
+
+h1{
+    text-align: center;
+
+}
+
+form{
+    border: 2px solid black;
+    padding: 30px 30px 30px 30px;
+}
+
+.fname{
+    margin-left: 20px;
+}
+
+.lname{
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: blue;
+}
+.submit{
+    margin-top: 20px;
+    margin-left: 80px;
+}

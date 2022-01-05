@@ -1,0 +1,37 @@
+.symbol{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: violet;
+    text-align: center;
+}
+
+.symbols ol li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.symbols{
+    border: 2px solid tomato;
+    background-color: wheat;
+}
+
+.entity ol li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+
+.entity{
+    margin-top: 10px;
+    border: 2px solid tomato;
+    background-color: wheat;
+}
+
+.emoji{
+    margin-top: 10px;
+    border: 2px solid tomato;
+    background-color: whitesmoke;
+}
+
+.emoji p{
+    font-size: 25px;
+}

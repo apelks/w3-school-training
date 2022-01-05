@@ -1,0 +1,57 @@
+header{
+    background-color: springgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 10px 10px 10px;
+    border-radius: 35px;
+    border: 2px solid green;
+}
+
+section{
+    border: 2px solid yellow   ;
+}
+.one{
+
+    width: 30%;
+    background-color: thistle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    margin-top: 0px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+    border-radius: 35px;
+}
+.two{
+    width: 30%;
+    background-color: thistle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    margin-top: 0px;
+    padding: 10px 10px 10px 10px;
+    float: right;
+    border-radius: 35px;
+}
+.three{
+    width: 30%;
+    background-color: thistle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    margin-top: 0px;
+    padding: 10px 10px 10px 10px;
+    float: right;
+    margin-right: 40px;
+    border-radius: 35px;
+}
+
+.cont{
+    background-color: grey;
+    border: 2px solid black;
+
+}
+
+@media  screen and (max-width: 800px) {
+
+    header, .one, .two, .three{
+        width: 100%;
+    }
+    
+}

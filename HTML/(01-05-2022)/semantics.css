@@ -1,0 +1,66 @@
+.Heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    
+}
+
+.Heading-two{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+
+}
+body{
+    background-color: antiquewhite;
+    
+
+}
+
+section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: honeydew;
+    border-radius: 39px;
+    
+}
+
+article{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px dotted green;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: lavenderblush;
+    border-radius: 50px;
+   
+}
+aside{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 40%;
+    float: right;
+    background-color: lemonchiffon;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 50px; 
+
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px dotted green;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: lavenderblush;
+    border-radius: 50px;
+
+}
+
+@media screen and (max-width: 800px)  {
+
+    .Heading, .Heading-two, .article, .section, .footer{
+        width: 100%;
+    }
+    
+}
