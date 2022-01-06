@@ -1,0 +1,26 @@
+body{
+    background-color: wheat;
+}
+
+.height{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.data{
+    background-color: violet;
+    width: 60%;
+    height: 200px;
+    margin: auto;
+    border: 2px solid rgb(13, 0, 71);
+    padding: 10px 10px 10px 10px;
+}
+.data2{
+    background-color: rosybrown;
+    width: 40%;
+    height: fit-content;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    margin-top:20px;
+    border-radius:50px;
+}

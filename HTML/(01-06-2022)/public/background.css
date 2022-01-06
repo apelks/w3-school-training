@@ -1,0 +1,30 @@
+body{
+    background-color: burlywood;
+}
+
+.firstBox{
+    background-color: cadetblue;
+    width: 30%;
+    height: 200px;
+    border: 2px solid black;
+    opacity: 0.3;
+    float: left;
+}
+
+.secBox{
+    float: right;
+    width: 30%;
+    height: 200px;
+    border: 2px solid black;
+    opacity: 0.5;
+    background-color: chartreuse;
+}
+
+img{
+    margin-top: 15%;
+    margin-left: 3%;
+}
+
+.part {
+    background-image: linear-gradient(yellow);
+}

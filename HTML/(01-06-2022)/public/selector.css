@@ -1,0 +1,29 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: snow;
+    text-align: center;
+}
+
+h1{
+    background-color: steelblue;
+    width: 30%;
+    margin-left: 33%;
+}
+
+.first p{
+    background-color: yellow;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#firstId p{
+    background-color: yellowgreen;
+    width: 70%;
+    margin-left: 15%;
+}
+
+p{
+    background-color: red;
+    width: 70%;
+    margin-left: 15%;
+}

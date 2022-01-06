@@ -1,0 +1,7 @@
+body{
+    background-image: url(../min.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-attachment: scroll;
+}
