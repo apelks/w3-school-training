@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    background-color: cornsilk;
+    padding: 15px 15px 15px 15px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 40px; 
+    color: red; 
+
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    padding: 10px 10px 10px 10px;
+}

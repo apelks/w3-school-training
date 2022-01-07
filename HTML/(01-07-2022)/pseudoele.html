@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoELement</title>
+    <style>
+        p::first-line{
+            background-color: black;
+            color: yellow;
+            font-variant: small-caps;
+        }
+        p::first-letter{
+            font-size: 200px;
+            color: yellowgreen;
+        }
+        p::before{
+            content: url(smile.jfif);
+        }
+        h6::after{
+            content: url(smile.jfif);
+        }
+
+        ::selection{
+            color: cadetblue;
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem accusamus quaerat repellat, totam officia
+         ipsa vel odio corporis nobis labore facilis fuga officiis, doloribus assumenda atque quos corrupti veniam. Veritatis? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Aut est, enim illum iste dicta laborum, consequuntur totam,delectus saepe facilis magni. Pariatur a unde dolores vero vel sit, optio soluta.</p>
+
+          <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem accusamus quaerat repellat, totam officia
+            ipsa vel odio corporis nobis labore facilis fuga officiis, doloribus assumenda atque quos corrupti veniam. Veritatis? Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Aut est, enim illum iste dicta laborum, consequuntur totam,delectus saepe facilis magni. Pariatur a unde dolores vero vel sit, optio soluta.</h>
+</body>
+</html>

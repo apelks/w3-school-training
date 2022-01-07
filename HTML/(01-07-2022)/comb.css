@@ -1,0 +1,9 @@
+div p {
+    color: black;
+    background-color: wheat;
+}
+
+div > h2{
+    background-color: black;
+    color: blanchedalmond;
+}

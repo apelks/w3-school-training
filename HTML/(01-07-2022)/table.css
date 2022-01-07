@@ -1,0 +1,50 @@
+body{
+    background-color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 3px solid red;
+    padding-bottom: 30px;
+}
+
+table{
+    text-align: center;
+    border: 3px solid blueviolet;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    background-color: darkgrey;
+    overflow-x: auto; 
+}
+
+th{
+    border: 3px solid black;
+    padding: 10px 10px 10px 10px;
+    height: 50px;
+    text-align: right;
+    text-decoration: line-through;
+    font-size: 25px;
+    border-bottom: 2px solid darkgrey;
+}
+td{
+    border: 3px solid blue;
+    padding: 10px 10px 10px 10px;
+    height: 50px;
+    text-align: left;
+    text-decoration:underline;
+    font-size: 27px;
+    
+}
+
+tr:hover{
+    background-color: cadetblue;    
+}
+
+tr:nth-child(odd){
+    background-color: coral;
+}
+tr:nth-child(even){
+    background-color: darkkhaki;
+}

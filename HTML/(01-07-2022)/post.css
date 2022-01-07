@@ -1,0 +1,55 @@
+body{
+    background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.static{
+
+    font-size: 20px;
+    border: 2px solid black;
+    position: static;
+    top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.relative{
+    font-size: 20px;
+    border: 2px solid violet;
+    position: relative;
+    width: 50%;
+
+    left: 150px;
+    padding:20px 20px 20px 20px;
+    top: 40px;
+}
+
+.fixed{
+
+    font-size: 20px;
+    border: 2px solid violet;
+    position: fixed;
+    width:450px;
+    padding:20px 20px 20px 20px;
+    top: 350px;
+    
+}
+
+.absolute{
+    font-size: 25px;
+    border: 2px solid violet;
+    position: absolute;
+    width:550px;
+    padding:20px 20px 20px 20px;
+    top: 450px;  
+    left: 400px;  
+    right: 200px;
+    height: 400px;
+}
+
+.sticky{
+    font-size: 20px;
+    border: 2px solid red;
+    width: 450px;
+    position: sticky;
+    top: 0;
+}

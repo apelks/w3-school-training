@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .overflow{
+            background-color: green;
+            width: 100px;
+            height: 200px;
+            overflow: hidden;
+            margin-bottom: 30px;
+
+        }
+        .scroll{
+            background-color: green;
+            width: 100px;
+            height: 200px;
+            overflow: scroll;
+            position: absolute;
+            left: 200px;
+            top: 90px;
+        }
+        .overflow_y{
+
+            background-color: green;
+            width: 150px;
+            height: 200px;
+            overflow-x: scroll;
+            position: absolute;
+            left: 400px;
+            top: 90px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Overflow Property of css</h1>
+    <div class="overflow">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sit odio,
+             harum est optio sint ut itaque iure numquam veniam aliquam commodi nobis explicabo repudiandae 
+             laudantium possimus minima sapiente molestiae!</p>
+    </div>
+
+    <div class="scroll">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sit odio,
+             harum est optio sint ut itaque iure numquam veniam aliquam commodi nobis explicabo repudiandae 
+             laudantium possimus minima sapiente molestiae!</p>
+    </div>
+    <div class="overflow_y">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sit odio,
+             harum est optio sint ut itaque iure numquam veniam aliquam commodi nobis explicabo repudiandae 
+             laudantium possimus minima sapiente molestiae!</p>
+    </div>
+</body>
+</html>

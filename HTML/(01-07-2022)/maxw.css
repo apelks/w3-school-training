@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.width{
+    border: 2px solid blueviolet;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+h1{
+    border: 2px solid greenyellow;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.mwidth{
+    border: 2px solid yellow;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
