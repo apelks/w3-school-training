@@ -1,0 +1,43 @@
+body{
+    background-color: bisque;
+}
+
+.first{
+    width: 200px;
+    height: 200px;
+    background: cadetblue;
+    transition: width 1s, height 2s;
+}
+
+.first:hover{
+    width: 500px;
+    height: 500px;
+}
+
+.second{
+    width: 200px;
+    height: 200px;
+    background: rgb(160, 134, 95);
+    transition: width 1s, height 2s;
+    transition-timing-function: ease-in-out;
+
+}
+.second:hover{
+   
+    width: 500px;
+    height: 500px;
+}
+.third{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: width 1s, height 1ms;
+    transition-timing-function: linear;
+
+
+}
+.third:hover{
+   
+    width: 500px;
+    height: 500px;
+}

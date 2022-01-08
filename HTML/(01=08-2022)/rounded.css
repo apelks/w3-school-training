@@ -1,0 +1,19 @@
+.round1{
+    background-color: brown;
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.round2{
+
+    background-color: yellowgreen;
+    border: 2px solid black;
+    border-radius: 40px 80px;
+    width: 40%;
+    height: 200px;
+    margin: auto;
+}

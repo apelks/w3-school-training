@@ -1,0 +1,12 @@
+.borderima{
+    border: 30px solid ;
+    padding: 30px;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30
+
+}
+
+.border{
+    border: 5px solid transparent;
+    padding: 3px;
+    border-image: url(border.png) 10 stretch;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textEffects</title>
+    <style>
+        p {
+            white-space: nowrap;
+            width: 200px;
+            border: 2px solid red;
+            overflow: hidden;
+            text-overflow: clip;
+            padding: 20px 20px 20px 20px;
+        }
+
+        .ellipse{
+            white-space: nowrap;
+            width: 200px;
+            border: 2px solid red;
+            overflow: ellipse;
+            text-overflow: clip;
+            padding: 20px 20px 20px 20px;
+            overflow: hidden;
+
+        }
+        .vert{
+            writing-mode: horizontal-tb;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align:center;">CSS Text Effectss</h1>
+    <hr>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laboriosam officia quod provident est placeat
+            atque libero et minus, quibusdam non nisi laudantium ab distinctio obcaecati explicabo possimus sint? Cum.
+        </p>
+    </div>
+
+    <p class="ellipse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veniam ut iusto ipsum totam! Omnis quasi earum necessitatibus asperiores maiores voluptatem assumenda nulla deleniti excepturi, nam perspiciatis commodi illo neque?</p>
+</body>
+
+</html>
