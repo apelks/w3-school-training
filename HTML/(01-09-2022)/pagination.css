@@ -1,0 +1,35 @@
+body{
+    background-color: grey;
+}
+
+
+h1{
+    text-align: center;
+}
+.content {
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+  }
+  
+  .content a {
+    color: rgba(192, 72, 72, 0.74);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid goldenrod;
+    margin: 0 4px;
+  }
+  
+  .content a.active {
+    background-color: #84af4c;
+    color: greenyellow;
+  }
+  
+  .content a:hover:not(.active) {
+
+  background-color: #ddd;
+}

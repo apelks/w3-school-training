@@ -1,0 +1,18 @@
+body{
+    background-color: indianred;
+}
+
+h1{
+    text-align: center;
+}
+
+.colums{
+    background-color: ivory;
+    column-count: 3;
+    column-rule-style: dotted;
+    column-gap: 30px;
+    column-rule-color: hotpink;
+    border: 2px solid gray;
+    padding: 15px 15px 15px 15px;
+}
+

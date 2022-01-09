@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            top: 50px;
+            border: 2px dotted cornflowerblue;
+        }
+
+        .tooltip .text {
+            visibility: hidden;
+            background-color: crimson;
+            color: white;
+            width: 120px;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            top: -5px;
+            left: 105%;
+        }
+
+        .tooltip:hover .text{
+            visibility: visible;
+        }
+
+        .tooltip2{
+            position: relative;
+            display: inline-block;
+            border: 2px dotted rgb(237, 121, 100);
+        }
+        .tooltip2 .text2{
+            visibility: hidden;
+            background-color: rgb(20, 220, 37);
+            color: white;
+            width: 120px;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            top: -5px;
+            left: 105%;
+
+        }
+
+        .tooltip2:hover .text2{
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Tooltip</h1>
+
+    <div class="tooltip">
+        hey i am here first
+        <span class="text">Hey you got me</span>
+
+    </div>
+
+    <div class="tooltip2">
+        Hey i am Second
+        <div class="text2">
+            hey you got me again
+        </div>
+    </div>
+
+</body>
+
+</html>
