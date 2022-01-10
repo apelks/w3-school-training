@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(143, 160, 95);
+}
+
+
+
+h1{
+    background-color: oldlace;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container a{
+
+    text-decoration: none;
+    font-size: 25px;
+    color: blueviolet;
+    border-right: 1px solid black;
+    padding-right: 10px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+a{
+    background-color: burlywood;
+    flex:33%;
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    .container{
+        flex-direction: column;
+    
+    }
+    .container a{
+        border-bottom: 1px solid cornflowerblue;
+    }
+}

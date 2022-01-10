@@ -1,0 +1,47 @@
+body{
+    background-color: blanchedalmond;
+}
+.contain{
+    display: flex;
+    background-color: chocolate;
+    justify-content: space-evenly;
+}
+
+.contain div{
+    background-color: crimson;
+    color: navajowhite;
+    width: 20%;
+    margin-right: 10px;
+    height: 100px;
+}
+
+.contain, .one{
+    text-align: center;
+}
+
+.one{
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+.new{
+
+    display: flex;
+    background-color: rgb(30, 210, 75);
+    justify-content: space-evenly;
+    margin-top: 30px;
+  
+
+}
+
+.new div{
+
+    background-color: crimson;
+    color: navajowhite;
+    width: 20%;
+    margin-right: 10px;
+    height: 100px;
+    margin-bottom: 30px;
+
+}

@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1{
+    text-align: center;
+}
+
+button{
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: 20px;
+    width: 20%;
+    margin: auto;
+    display: block;
+}
+
+#none{
+    margin-top: 50px;
+    text-align: center;
+}
