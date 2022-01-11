@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <p id = "text">Hey this is sometext</p>
+
+    <button onclick="document.getElementById('text').innerHTML = 'Hey this is changed Text'">Click On this!!</button>
+
+    <p id = "time"></p>
+
+    <button onclick="document.getElementById('time').innerHTML = Date()">the day is </button>
+      
+    <p id = "stime"></p>
+    <script>
+        function displayDate(){
+            document.getElementById("stime").innerHTML = Date();
+        }
+    </script>
+
+    <button onclick="displayDate()">This is Date</button>
+    
+</body>
+</html>

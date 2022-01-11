@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slice</title>
+</head>
+<body>
+        <p id  ="slice"></p>
+
+        <script>
+            let x  = "keshav , kukan";
+
+            document.getElementById("slice").innerHTML = x.slice(0,7);
+
+        </script>
+
+        <p id = "substr"></p>
+        <script>
+
+        let y = "amazon , google , apple";
+
+        document.getElementById("substr").innerHTML = y.substring(2,9);
+
+        </script>
+
+        <p id = "replace"></p>
+
+        <script>
+            let z = "hey this is keshav";
+
+            document.getElementById("replace").innerHTML = z.replace("keshav", "kukan");
+        </script>
+
+
+</body>
+</html>
+
+<script>
+    let tex1 = "hey this is uppercase";
+    tex2 = tex1.toUpperCase();
+    console.log(tex2);
+
+
+    let tex3 = "HEY THIS IS LOWERCASE";
+    tex4 = tex3.toLowerCase();
+    console.log(tex4);
+
+
+    let p = "hey";
+
+    let q = "keshav";
+
+    let r = p.concat(" ",q);
+
+    console.log(r);
+
+
+
+    let d = "     elo"
+
+    let f = d.trim();
+
+    console.log(f);
+
+
+    let g = "keshavdskdsk"
+
+    let h = g.charAt(8);
+
+    console.log(h);
+</script>
