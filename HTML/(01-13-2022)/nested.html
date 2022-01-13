@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Object</title>
+</head>
+<body>
+    <p>Nested Object</p>
+
+    <p id = "kes"></p>
+
+    <script>
+        const myObj = {
+            item1:"pizza",
+            item2:"pav bhaji",
+            item3:"chature bhole",
+            item4:"gulbu",
+            item5:"rasmalai"
+
+        };
+
+        document.getElementById("kes").innerHTML = myObj.item1 + " " + myObj.item2;
+    </script>
+</body>
+</html>
+
+
+<script>
+    const myCol ={
+
+        name:"keshav",
+        cars: ["800","alto","swift","esteem"]
+
+    };
+
+    for(let i in myCol.cars){
+        
+        document.write(myCol.cars[i]);
+        document.write("<br>");
+    }
+</script>

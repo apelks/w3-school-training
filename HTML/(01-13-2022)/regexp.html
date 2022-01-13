@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg Expression</title>
+</head>
+<body>
+
+    <p>Hey this button Will change Your text</p>
+    <button onclick="myFunction()">Try Click!!</button>
+    <p id = "regx">Hey this is Keshav</p>
+
+    <script>
+        function myFunction(){
+
+            let text = document.getElementById("regx").innerHTML;
+
+            document.getElementById("regx").innerHTML = text.replace("keshav","sharma");
+
+
+        }
+    </script>
+</body>
+</html>
+
+
+<script>
+    function myFunction(){
+        let text = "hey keshav";
+
+        k = text.replace("keshav","kukan");
+
+        console.log(k);
+    }
+
+    myFunction();
+</script>
+
+<script>
+    function myFunction(){
+
+        for(var i = 0; i < 10; i++){
+
+            if(i == 3){
+
+                continue;
+            }
+
+            console.log(i);
+        }
+    }
+
+    myFunction();
+</script>
+
+<script>
+    function myKeshu(){
+        let kesh = "keshav sharma";
+
+        console.log(kesh.search("m"));
+
+    }
+    myKeshu();
+</script>
+
+
+<script>
+    const patt = /k/;
+
+   console.log(patt.test("the best thing in life is free"));
+
+
+</script>
+

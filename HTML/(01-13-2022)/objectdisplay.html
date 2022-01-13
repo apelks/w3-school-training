@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Objects</h2>
+<p>Display properties in JSON format:</p>
+
+<p id="kesh"></p>
+
+<script>
+const person = {
+  name: "kukan",
+  age: 943,
+  city: "hansi"
+};
+
+document.getElementById("kesh").innerHTML = JSON.stringify(person);
+document.getElementById("kesh").innerHTML = Object.values(person);
+</script>
+
+</body>
+</html>

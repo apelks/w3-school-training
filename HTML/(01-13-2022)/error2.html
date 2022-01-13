@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+</head>
+<body>
+
+    <p id = "ferror"></p>
+
+    <button onclick="myFunction()">Try click!!</button>
+
+    <input type="text" id = "inpt">
+
+    <script>
+        function myFunction(){
+            const message = document.getElementById("ferror");
+            message.innerHTML = " ";
+
+            let x = document.getElementById("inpt").value;
+
+            try{
+                if (x == " ") throw "empty";
+                if (isNan(x)) throw "not a number";
+                if (x > 10) throw "too high";
+                x = Number(x);
+                if (x < 5) throw "too low";
+
+                if (x > 5 & x < 10) throw "you Got it"
+            }
+
+            catch(err){
+                    message.innerHTML = err;
+            }
+        }
+    </script>
+    
+</body>
+</html>
+
+
+<script>
+    let num = 1;
+    try{
+        num.toPrecision(500);
+    }
+    catch(err){
+        document.write(err.name);
+    }
+</script>

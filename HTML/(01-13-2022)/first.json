@@ -1,0 +1,15 @@
+[
+    
+    {
+        "name":"kohli",
+        "runs":7949,
+        "skill":"class Batting"
+    },
+
+    {
+        "name":"smith",
+        "runs": 8020,
+        "skill":"only test batsman"
+
+    }
+]
