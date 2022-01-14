@@ -1,0 +1,33 @@
+<script>
+    const Person = function(firstName,lastName){
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+   // const keshav = new Person("kukan","sharma");
+
+   // console.log(keshav);
+
+    const kukan = new Person("keshav","sharma");
+
+    console.log(kukan);
+</script>
+
+
+<script>
+    class personCl {
+        constructor (first,year){
+            this.first = first;
+            this.year = year;
+        }
+
+        calcAge() {
+            console.log(2037 - this.year);
+        }
+    }
+
+    const keshav = new personCl("kukan",1999);
+
+    console.log(keshav);
+    keshav.calcAge();
+</script>

@@ -1,0 +1,41 @@
+[
+    
+    {
+        "name":"kohli",
+        "roll no.":8,
+        "marks":69,
+        "favSub":"Math"
+    },
+
+    {
+        "name":"smith",
+        "roll no.":12,
+        "favSub":"test",
+        "marks":87
+
+    },
+    
+    {
+        "name":"waugh",
+        "roll no.": 13,
+        "marks":65,
+        "favSub":"English"
+    },
+
+    {
+        "name":"viv",
+        "roll no.": 19,
+        "marks":95,
+        "favSub":"Hindi"
+
+    },
+
+    {
+        "name":"ponting",
+        "roll no.":25,
+        "marks": 58,
+        "favSub":"ODI"
+    
+    }
+
+]

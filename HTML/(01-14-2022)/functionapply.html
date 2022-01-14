@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="kes"></p>
+
+<script>
+const person = {
+  fullName: function(city, country) {
+    return this.firstName + " " + this.lastName + "," + city + "," + country;
+  }
+}
+
+const person1 = {
+  firstName:"keshav",
+  lastName: "hisar"
+}
+
+document.getElementById("kes").innerHTML = person.fullName.apply(person1, ["kukan", "mill gate"]); 
+</script>
+
+</body>
+</html>

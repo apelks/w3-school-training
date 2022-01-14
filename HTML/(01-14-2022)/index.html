@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+
+    <p id = "kesh"></p>
+
+    <p id = "kukan"></p>
+
+    <script>
+
+      
+
+        const students = `[
+    
+    {
+        "name":"kohli",
+        "rollno.":8,
+        "marks":20,
+        "favSub":"Math"
+    },
+
+    {
+        "name":"smith",
+        "rollno.":12,
+        "favSub":"test",
+        "marks":27
+
+    },
+    
+    {
+        "name":"waugh",
+        "rollno.": 13,
+        "marks":35,
+        "favSub":"English"
+    },
+
+    {
+        "name":"viv",
+        "rollno.": 19,
+        "marks":38,
+        "favSub":"Hindi"
+
+    },
+
+    {
+        "name":"ponting",
+        "rollno.":25,
+        "marks": 48,
+        "favSub":"ODI"
+    
+    }
+
+]`
+
+
+
+    const obj = JSON.parse(students);
+
+    // for(let i = 0; i<obj.length; i++){
+    //     console.log(obj[i])
+    // }
+    
+    const pass = obj.filter(func);
+    function func(obj){
+        
+        return obj.marks > 33;
+    }
+    document.write("pass");
+
+    document.write("<br>")
+
+    for(let x in pass){
+
+    }
+
+
+
+
+    const fail = obj.filter(funct);
+    function funct(obj){
+
+        return obj.marks < 33;
+
+    }
+    document.write("fail");
+
+
+</script>
+
+    
+</body>
+</html>

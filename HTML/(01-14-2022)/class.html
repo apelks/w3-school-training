@@ -1,0 +1,52 @@
+<script>
+    class car {
+
+        constructor(age,year){
+            this.age = age;
+            this.year = year;
+        }
+    }
+
+    const myObj = new car(22,1999);
+    console.log(myObj.year);
+</script>
+
+<script>
+    class kesh {
+        constructor(name,age){
+            this.name = name;
+            this.age = age;
+        }
+
+        age(){
+            let date = new Date();
+            return date.getFullYear() - this.age; 
+        }
+    }
+
+    const shrm = new kesh("kukan",22);
+
+
+    console.log(shrm.age);
+</script>
+
+
+<script>
+    class abc {
+        constructor (car,age){
+            this.car = car;
+            this.age = age;
+        }
+
+        decrease(){
+            this.car -= 1;
+    
+        }
+    }
+        const bee = new abc("innova",15);
+
+        bee.decrease();
+
+        console.log(bee.age);
+
+</script>

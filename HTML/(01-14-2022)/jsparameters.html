@@ -1,0 +1,38 @@
+<script>
+    function findMax(a,b,c,d){
+
+        a = 45;
+        b = 50;
+        c = 39;
+        d = 51;
+
+        if(a > b){
+            document.write(a + " " + "is greater");
+        }
+        else if(b > d){
+            document.write(b + " " + "is greater");
+        }
+
+        else{
+            document.write("heh");
+        }
+    }
+
+    findMax();
+</script>
+
+<script>
+    function fMax(){
+        let max = -Infinity;
+        
+        for (let i = 0; i < arguments.length ; i++){
+            if (arguments[i] > max){
+                max = arguments[i];
+            }
+
+        }
+        return max;
+    }
+
+    document.write(fMax(4,6,7));
+</script>

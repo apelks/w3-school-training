@@ -1,0 +1,39 @@
+<script>
+
+    keshav = (a,b) =>{
+        return a*b;
+    }
+
+   document.write(keshav(4,5));
+</script>
+
+
+<script>
+       const naam = {
+           name:"keshav",
+           name1:"kukan",
+           name2:"sui mui",
+
+        names : function(){
+
+            return this.name1 + " " + this.name2;
+
+        }
+
+    }
+
+    document.write("<br>");
+
+    document.write(naam.names());
+</script>
+
+<script>
+    function myFunc(a1,a2){
+        this.firsName = a1;
+        this.lastName = a2;
+    }
+    const myObj = new myFunc("keshav","kukan");
+    document.write("<br>");
+    document.write("<br>");
+    document.write(myObj.lastName);
+</script>
