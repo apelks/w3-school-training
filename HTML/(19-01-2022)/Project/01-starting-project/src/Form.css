@@ -1,0 +1,54 @@
+.log-in{
+    background-color: slategray;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    position: relative;
+    top: 50px;
+    margin: auto;
+    border:2px solid sienna;
+    border-radius: 30px;
+}
+
+.email-id{
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.pass-id{
+
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+    top: 30px;
+
+}
+
+.log-btn{
+
+    
+    position: relative;
+    top: 30px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.email-id input{
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.pass-id input{
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+.log-btn button{
+    padding: 10px 10px 10px 10px;
+    color: tan;
+    background-color: teal;
+}
