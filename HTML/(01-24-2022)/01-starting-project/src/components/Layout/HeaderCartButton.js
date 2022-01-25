@@ -1,18 +1,28 @@
 import CartIcon from "../Cart/CartIcon";
 import classes from './HeaderCartButton.module.css';
-import React,{ useContext } from "react";
+import React,{ useContext,useEffect, useState} from "react";
 import CartContext from "../../store/cart-context";
 
 
 const HeaderCartButton = (props) =>{
 
+
+    
     const carCtx = useContext(CartContext);
 
     const numberOfCartItems = carCtx.items.reduce((curNumber, item) => {
         return curNumber + item.amount;
     }, 0);
 
-    return <button className={classes.button} onClick={props.onClick}>
+    const btnClasses = `${classes.button} ${classes.bump}`;
+
+    useEffect(() => {
+
+
+    },[]);
+
+
+    return <button className={btnClasses} onClick={props.onClick}>
 
         <span className={classes.icon}>
             <CartIcon/>
